@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contactform.css">
+</head>
+<body>
+    <header>
+        <h2>Contact Form</h2>
+        Please fill the form below.
+    </header>
+
+    <main>
+        <form action="">
+            <p>Name:<br>
+                <input type="text" placeholder="Enter full name" id="name" >
+            </p>
+            <p>Gender:<br>
+                <select name="gender" id="gender">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="fmale">Female</option>
+                </select>
+            </p>
+            <p>Phone Number:<br>
+                <input type="text" placeholder="Enter your Phone number" id="ph">
+            </p>
+            <p>Email:<br>
+                <input type="email" name="email" id="email" placeholder="Enter email id">
+            </p>
+            <p>Date of Birth<br>
+                <input type="date" name="dob">
+            </p>
+            <fieldset>Your message or feedback:<br>
+                <textarea name="adress" cols="100%" rows="4" placeholder="Message" parent="fieldset"></textarea>
+            </fieldset>
+
+            <p align="center"><input type="submit" name="submit" id="submit">
+            <input type="reset" id="reset"></p>
+        </form>
+    </main>
+    
+</body>
+</html>
